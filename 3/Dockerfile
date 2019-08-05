@@ -18,4 +18,4 @@ RUN set -ex \
 	&& pip install --no-cache-dir -r requirements.txt \
 	&& apk del .build-deps
 USER app
-CMD [ "python", "louskac.py", "-h" ]
+CMD [ "python", "py3ethrecover.py", "-h" ]
