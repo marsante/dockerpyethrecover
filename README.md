@@ -13,7 +13,7 @@
 - Then, run the image with a custom command (you can find below) like this :
 `docker run --rm -it dockerpyethrecover:latest python COMMAND`
 - Example : 
-`run --rm -it dockerpyethrecover:latest python louskac.py -p UTC--2017-07-12T00-06-42.772050600Z--f5751c906091b98be2a6be5ce42c573d704aedab -w wordlist_01.txt`
+`run --rm -it dockerpyethrecover:latest python py3ethrecover.py -p UTC--2017-07-12T00-06-42.772050600Z--f5751c906091b98be2a6be5ce42c573d704aedab -w wordlist_01.txt`
 
 ## Commands
 1. `python generating.py -h` #wordlist generator
