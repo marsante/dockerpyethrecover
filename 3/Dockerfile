@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.8-alpine
 RUN adduser -D app
 WORKDIR /home/app
 RUN set -ex \
